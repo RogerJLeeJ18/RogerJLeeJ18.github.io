@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Journee's First Website</title>
+        <style>
+            body {
+                background: rgb(178, 34, 34);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border: 2px solid purple;
+                border-radius: 15px 30px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+            /* main container area beneath menu */
+            main {
+                background: rgb(239, 80, 41);
+                display: flex;
+                border: 2px solid purple;
+                border-radius: 15px 30px;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                border: 2px solid purple;
+                border-radius: 15px 30px;
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="http://cdn.history.com/sites/2/2018/02/AP_930527020-E.jpeg">
+                </div>
+                <div class="content">
+                    <header>Roger Journee</header>
+                    <p>Student at Operation Spark</p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Writing</li>
+                            <li>Drawing</li>
+                            <li>Playing Sports</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
