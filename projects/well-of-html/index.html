@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/notes/notes.js"></script>
+    <title>A Well of HTML</title>
+    <style type="text/css">
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 4px;
+    }
+    .example-grid {
+        margin: 20px;
+    }
+
+    .row-img {
+        margin: 4px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+         <!--ALL YOUR MARKUP GOES BELOW HERE -->
+        <a href="https://en.wikipedia.org/wiki/Night_(book)"></a>
+        <img src="img/form.png" />
+        <h1>About</h1>
+        <h2>Author</h2>
+        <h3>
+            Images
+            <small>
+                <img src="img/bootstrap.png" />
+            </small>
+        </h3>
+        <h4>Links</h4>
+        <h5>Interesting Facts</h5>
+        <h6>Other Works</h6>
+        <p>
+                This is a website about <i>Night</i> a book by <b>Ellie Wiesel</b>.
+            <em>I first read it in 10th grade & it is one of the few books I have
+            the pleasure of remembering in high school</em>. <strong>A book about a horrible
+            event in human history & the toll it takes on an individual victim.</strong>
+        </p>
+        <ul>
+            <li>Germany</li>
+            <li>Italy</li>
+            <li>Serbia</li>
+        </ul>
+        <ol>
+            <li>Build Up</li>
+            <li>Consequences</li>
+            <li>Now</li>
+        </ol>
+        <dl>
+            <dt>Holocaust</dt>
+            <dd>Infamous event in history</dd>
+            <dt>Nazi</dt>
+            <dd>Term for a horrible person</dd>
+        </dl>
+        <!-- ALL YOUR MARKUP GOES ABOVE HERE -->
+    </div>
+    <form class="ReachOut Form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id='name' />
+        </div>
+        <div>
+            <label for = 'mail'>E-Mail:</label>
+            <input type='email' id='mail' />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Names of survivors</td></td>
+            </tr>
+        </tfoot>
+            <tbody>
+                <tr>
+                    <td>Ellie</td>
+                    <td>Wiesel</td>
+                </tr>
+                <tr>
+                    <td>Anne</td>
+                    <td>Frank</td>
+                </tr>
+            </tbody>
+    </table>
+    <div>
+        <head>Similar Books</head>
+        <ul>
+            <li><em>The Diary of Anne Frank</em></li>
+        </ul>
+    </div>
+    <div>
+        <p>
+            Ellie really describes the horrors he expreienced in a personal and harrowing way.
+        </p>
+    </div>
+    <div>
+        <ol>
+            <li>Auchwitz</li>
+        </ol>
+    </div>
+    <div>
+        <h1>Foods
+            <small>
+                <img src="img/black-currant.jpg" />
+            </small>
+        </h1>
+    </div>
+    <div>
+        <head>Special Thanks</head>
+        <ul>
+            <li>Ellie Wiesel</li>
+            <p>
+                Thank you for writing thos book it was one of the best things i have ever read.
+            </p>
+        </ul>
+    </div>
+    <div class="flex-row">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+    </div>
+    <div class="example-grid">
+        <div class="row">
+            <div class="col-md-2"><img src="./img/cherries.jpg" class="row-img"></img>
+            </div>
+            <div class="col-md-10">Cherries are tasty things that grow on trees! You can eat them and feel good about yourself!</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"><img src="./img/black-currant.jpg" class="row-img"></img>
+            </div>
+            <div class="col-md-10">Black Currents are tasty things that grow on bushes! You can eat them and feel good about yourself!</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"><img src="./img/apple-in-grass.jpg" class="row-img"></img>
+            </div>
+            <div class="col-md-10">Apples are tasty things that grow on trees! You can eat them and feel good about yourself! They make great pies!</div>
+        </div>
+    </div>
+</body>
+
+</html>
